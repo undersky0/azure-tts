@@ -35,6 +35,7 @@ module Azure
     class TokenAuthMiddleware < Faraday::Middleware
       def initialize(app)
         super(app)
+        @app = app
       end
 
       def call(env)
