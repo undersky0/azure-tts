@@ -3,8 +3,6 @@
 require "azure/tts/version"
 
 require "faraday"
-require "faraday_middleware"
-
 require "azure/tts/constants"
 require "azure/tts/errors"
 require "azure/tts/api"
